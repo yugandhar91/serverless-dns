@@ -76,6 +76,9 @@ WORKER_ENV = "production"
 CLOUD_PLATFORM = "cloudflare"
 CF_LOGPUSH_R2_PATH = "qlog/"
 
+[observability.logs]
+enabled = true
+
 ##################
 #-----SECRETS----#
 ##################
